@@ -24,5 +24,5 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	
-	
+	int32 playerid;
 };
