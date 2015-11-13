@@ -219,7 +219,7 @@ void AHAERT_Pawn::MoveForwardCar(float Value)
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}

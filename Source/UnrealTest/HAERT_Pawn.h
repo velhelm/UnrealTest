@@ -77,6 +77,7 @@ protected:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "ModeTransformation")
 	EPlayerMode _CurrentMode;
 
 	/** Called for forwards/backward input */
