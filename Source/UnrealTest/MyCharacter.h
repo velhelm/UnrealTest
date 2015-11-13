@@ -32,9 +32,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	
-	UPROPERTY()
+	//UPROPERTY()
 	void MoveForward(float AxisValue);
 
-	UPROPERTY()
+	//UPROPERTY()
 	void MoveRight(float AxisValue);
 };

@@ -31,7 +31,7 @@ void AMyCharacter::SetupPlayerInputComponent(class UInputComponent* InputCompone
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
-	InputComponent->BindAxis("Forward", this, )
+	//InputComponent->BindAxis("Forward", this, )
 
 }
 
