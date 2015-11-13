@@ -66,3 +66,6 @@ DerivedDataCache/*
 *.swo
 .ctrlp_cache/
 
+#Errors
+*.stackdump
+
