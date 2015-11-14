@@ -143,14 +143,14 @@ void AHAERT_Pawn::Strafe(float Value)
 
 void AHAERT_Pawn::LookRightAtRate(float Rate)
 {
-	// calculate delta for this frame from the rate information
-	//AddControllerYawInput(Rate * BaseLookRightRate * GetWorld()->GetDeltaSeconds());
+	 calculate delta for this frame from the rate information
+	AddControllerYawInput(Rate * BaseLookRightRate * GetWorld()->GetDeltaSeconds());
 }
 
 void AHAERT_Pawn::LookUpAtRate(float Rate)
 {
-	// calculate delta for this frame from the rate information
-	//AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+	 calculate delta for this frame from the rate information
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
 //Transform
